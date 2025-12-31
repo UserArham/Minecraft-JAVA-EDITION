@@ -1,6 +1,7 @@
 # Minecraft Java Edition 1.12.2
 
-![Minecraft Logo](https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png)
+<img width="1360" height="699" alt="Screenshot 2025-12-31 2 00 51 PM" src="https://github.com/user-attachments/assets/213ddc4e-7ede-4cf9-a826-2859cc65d93f" />
+
 
 ## Overview
 Minecraft 1.12.2 is a stable Java Edition release from September 2017.  
