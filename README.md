@@ -1,5 +1,9 @@
 # Minecraft Java Edition 1.12.2
-
+<p align="center">
+  <a href="LICENSE">
+  <img alt="LICENSE" src="https://img.shields.io/badge/license-Mozilla%20Public%20License%20Version%202.0-blue?logo=mozilla">
+  </a>
+</p>
 <img width="1360" height="699" alt="Screenshot 2025-12-31 2 00 51 PM" src="https://github.com/user-attachments/assets/213ddc4e-7ede-4cf9-a826-2859cc65d93f" />
 
 
