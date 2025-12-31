@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Minecraft Java Edition – GMV</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+/* ================= GMV CONFIG ================= */
+:root {
+  --gmv-width: 900px;
+  --gmv-height: 700px;
+  --accent: #2ecc71;
+}
+
+/* ================= RESET ================= */
+* {
+  box-sizing: border-box;
+}
+
+/* ================= PAGE ================= */
+body {
+  margin: 0;
+  min-height: 100vh;
+  padding: 40px;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background: linear-gradient(135deg, #1b2a3a, #0b0f14);
+  overflow: auto; /* ✅ scrolling allowed */
+  color: #e5e7eb;
+}
+
+/* ================= HEADER ================= */
+.header {
+  max-width: var(--gmv-width);
+  margin: 0 auto 12px;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* ================= GMV FRAME ================= */
+.gmv-frame {
+  width: var(--gmv-width);
+  height: var(--gmv-height);
+  margin: 0 auto;
+  background: #000;
+  border-radius: 12px;
+  overflow: hidden;
+
+  box-shadow:
+    0 30px 70px rgba(0, 0, 0, 0.85),
+    inset 0 0 0 2px rgba(46, 204, 113, 0.25);
+}
+
+/* ================= IFRAME ================= */
+.gmv-frame iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}
+
+/* ================= FOOTER ================= */
+.footer {
+  max-width: var(--gmv-width);
+  margin: 10px auto 0;
+  font-size: 12px;
+  color: #9ca3af;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer span {
+  color: var(--accent);
+  font-weight: 500;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+  Minecraft Java Edition • 1.12.2 (GMV)
+</div>
+
+<div class="gmv-frame" id="gmvFrame" data-gmv="900x700">
+  <iframe
+    src="https://takaiwebsite.neocities.org/minecraft"
+    title="Minecraft Java Edition 1.12.2">
+    Your browser does not support iframes.
+  </iframe>
+</div>
+
+<div class="footer">
+  <div>Unofficial Web Port</div>
+  <div><span>GMV Mode</span></div>
+</div>
+
+<script>
+/* ================= GMV SIZE APPLY ================= */
+(function () {
+  const frame = document.getElementById("gmvFrame");
+  const gmv = frame.dataset.gmv || "900x700";
+  const parts = gmv.split("x");
+
+  const width = parseInt(parts[0], 10);
+  const height = parseInt(parts[1], 10);
+
+  frame.style.width = width + "px";
+  frame.style.height = height + "px";
+})();
+</script>
+
+</body>
+</html>
