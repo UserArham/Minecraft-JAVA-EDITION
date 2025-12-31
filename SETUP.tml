@@ -1,0 +1,1 @@
+npx electron-packager . MinecraftLauncher --platform=win32 --arch=x64
