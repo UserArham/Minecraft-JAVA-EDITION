@@ -33,7 +33,7 @@ This version is fully compatible with most modern mod loaders such as **Forge 1.
 
 ## System Requirements
 
-- **OS:** Windows, macOS, Linux  
+- **OS:** Windows, macOS, Linux, primarily Chromebooks (School/Home) in **Eaglercraft**.  
 - **RAM:** Minimum 2GB (4GB+ recommended for mods)  
 - **Java:** Java 8 or later  
 - **CPU/GPU:** Any modern processor and GPU capable of OpenGL 2.1  
