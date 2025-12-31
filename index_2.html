@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minecraft Launcher</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" 
+        href="https://github.com/user-attachments/assets/09fe5f74-e1f5-47d2-a1f6-fdcc36b28f68">
+
+  <!-- Embedded SCSS compiled to CSS -->
+  <style>
+    $primary-color: #2ecc71;
+    $bg-dark: #0b0f14;
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #1b2a3a, $bg-dark);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      color: #e5e7eb;
+    }
+    .gmv-container {
+      width: 900px;
+      height: 700px;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.7), inset 0 0 0 2px rgba(46,204,113,0.25);
+      background: #000;
+      position: relative;
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+    .overlay {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: rgba(46,204,113,0.1);
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="gmv-container">
+    <iframe src="https://takaiwebsite.neocities.org/minecraft" 
+            title="Minecraft Java Edition 1.12.2">
+    </iframe>
+    <div class="overlay">Minecraft 1.12.2</div>
+  </div>
+
+  <!-- Optional JS / GMV logic -->
+  <script>
+    // Example JS: log when iframe loads
+    const iframe = document.querySelector('iframe');
+    iframe.addEventListener('load', () => {
+      console.log('Minecraft 1.12.2 GMV iframe loaded!');
+    });
+
+    // You can also add dynamic version switching here
+    // Example: iframe.src = "https://takaiwebsite.neocities.org/minecraft?version=1.8.8";
+  </script>
+
+</body>
+</html>
