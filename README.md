@@ -83,3 +83,5 @@ Use **Forge 1.12.2** to install mods, resource packs, and custom server packs.
 - [Minecraft Wiki – 1.12.2](https://minecraft.fandom.com/wiki/Java_Edition_1.12.2)  
 - [Forge 1.12.2](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.12.2.html)  
 - [Eaglercraft](https://eaglercraft.dev/)
+
+*Take a big time playing Minecraft. Try crafting and mining. WASD to move, T to chat, and ESC to exit.*
