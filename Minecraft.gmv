@@ -1,0 +1,17 @@
+{
+  "name": "Minecraft Java Edition 1.12.2",
+  "type": "web",
+  "url": "https://takaiwebsite.neocities.org/minecraft",
+  "resolution": {
+    "width": 900,
+    "height": 700
+  },
+  "allowScroll": true,
+  "fullscreen": false,
+  "theme": {
+    "background": "#0b0f14",
+    "border": "#2ecc71",
+    "shadow": "0 30px 70px rgba(0,0,0,0.85)"
+  },
+  "notes": "Unofficial Web Port – Java Edition GMV layout"
+}
