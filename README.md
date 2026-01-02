@@ -133,4 +133,5 @@ You may **create a world** or **join a server**.
  ### Powered by: 
 [![Powered by Vercel](https://raw.githubusercontent.com/runyasak/odds-reamdme-badge/main/powered-by-vercel.svg)](https://vercel.com?utm_source=powered-by-vercel)
 <img width="250" height="75" alt="Google_Play_Store_badge_EN svg" src="https://github.com/user-attachments/assets/7947203f-2f34-4eab-8589-0524f78917b0" />
+<img width="128" height="128" alt="apple-the-available-app-logo-appstore-on-square-store-icon" src="https://github.com/user-attachments/assets/08d3f76b-b259-49b5-b700-67a2eeee5565" />
 
