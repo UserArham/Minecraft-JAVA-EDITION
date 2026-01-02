@@ -91,10 +91,35 @@ You should **tap** install when playing **Minecraft**. You may do this if you en
 ## How to do:
 - Tap Linux Enviroment and do the on-screen steps.
 - Tap the Install button.
-## Example: 
-<img width="361" height="211" alt="Screenshot 2026-01-01 7 51 00 PM" src="https://github.com/user-attachments/assets/5ebe1d66-069e-4476-8a7b-9c8dd3b65063" />
-## Wait for the file.
-The file can take **30** seconds or **45** seconds.
-<img width="403" height="146" alt="Screenshot 2026-01-01 7 53 34 PM" src="https://github.com/user-attachments/assets/b93e3474-2d48-4f74-8d88-0e40f4995ba2" />
-# In Eaglercraft
-No worries, it is **free**!
+## Installation
+
+### Step 1: Download Forge
+1. Go to the official Forge website.
+2. Choose the correct Minecraft version.
+3. Click **Installer** under **Download Latest**.
+
+> **Note:** Wait for the file to download. This may take **30–45 seconds**.
+
+---
+
+### Step 2: Run the Installer
+1. Open your **Downloads** folder.
+2. Double-click the file:
+3. Select **Install client**.
+4. Click **OK** and wait for the confirmation message.
+
+---
+
+### Step 3: Launch Minecraft
+1. Open the **Minecraft Launcher**.
+2. Select the **Forge** profile.
+3. Click **Play**.
+
+---
+
+### Optional: Installing Mods
+1. Press `Win + R`, type `%appdata%`, and press Enter.
+2. Open the `.minecraft` folder.
+3. Open the `mods` folder (create it if it doesn’t exist).
+4. Place mod `.jar` files into the folder.
+5. Launch Minecraft using the **Forge** profile.
