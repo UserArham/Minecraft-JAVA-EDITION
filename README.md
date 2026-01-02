@@ -64,7 +64,7 @@ This version is fully compatible with most modern mod loaders such as **Forge 1.
 Use the **Minecraft Launcher** and select version **1.12.2**.
 
 ### Browser Ports (Unofficial)
-Some browser ports, such as **[Eaglercraft](https://eaglercraft.dev/)**, allow playing 1.12.2 in your web browser.
+Some browser ports, such as **[Eaglercraft](https://eaglercraft.dev/)** or **[Web Edition](https://www.mcraft.fun/)**, allow playing 1.12.2 in your web browser.
 
 ### Mods
 Use **Forge 1.12.2** to install mods, resource packs, and custom server packs.
@@ -123,3 +123,10 @@ You should **tap** install when playing **Minecraft**. You may do this if you en
 3. Open the `mods` folder (create it if it doesn’t exist).
 4. Place mod `.jar` files into the folder.
 5. Launch Minecraft using the **Forge** profile.
+# In Eaglercraft, or Minecraft Web Edition:
+You may run it only on these websites, **[eaglercraft.dev](https://eaglercraft.dev/)** and **[mcraft.fun](https://www.mcraft.fun)** .
+You may **create a world** or **join a server**.
+### Here are the key moments about these websites.
+1. You can create worlds in Eaglercraft, but in Web Edition, you can make them even in other Minecraft versions, but no 1.12.2.
+2. You can join a server in Eaglercraft, but in Web Edition, they make servers from versions and test them and anyone joins, they think they are in a different version (eg: 1.21.6).
+**Best game**: **Minecraft Web Edition**
