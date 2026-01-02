@@ -9,6 +9,7 @@
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://help.github.com/articles/about-pull-requests/)
 ![Static Badge](https://img.shields.io/badge/Minecraft-Java%208.0%20Build-darkgreen)
 ![Static Badge](https://img.shields.io/badge/Vercel-JavaScript%20Command-blue)
+![Static Badge](https://img.shields.io/badge/Play%20Store-Download-lightblue)
 
  
 
