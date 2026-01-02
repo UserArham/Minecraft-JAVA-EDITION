@@ -130,3 +130,7 @@ You may **create a world** or **join a server**.
 1. You can create worlds in Eaglercraft, but in Web Edition, you can make them even in other Minecraft versions, but no 1.12.2.
 2. You can join a server in Eaglercraft, but in Web Edition, they make servers from versions and test them and anyone joins, they think they are in a different version (eg: 1.21.6).
 # Best game: **Minecraft Web Edition**
+Powered by: <p align="center">
+  <a href="LICENSE">
+  <img alt="LICENSE" src="https://img.shields.io/badge/license-Mozilla%20Public%20License%20Version%202.0-blue?logo=mozilla">
+  </a>
