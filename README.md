@@ -86,3 +86,15 @@ Use **Forge 1.12.2** to install mods, resource packs, and custom server packs.
 - [Eaglercraft](https://eaglercraft.dev/)
 
 *Take a big time playing Minecraft. Try crafting and mining. WASD to move, T to chat, and ESC to exit.*
+# If you are in Chromebook: 
+You should **tap** install when playing **Minecraft**. You may do this if you enabled Crostini. Playing Minecraft means you need Crostini, aka Linux Envirorment.
+## How to do:
+- Tap Linux Enviroment and do the on-screen steps.
+- Tap the Install button.
+## Example: 
+<img width="361" height="211" alt="Screenshot 2026-01-01 7 51 00 PM" src="https://github.com/user-attachments/assets/5ebe1d66-069e-4476-8a7b-9c8dd3b65063" />
+## Wait for the file.
+The file can take **30** seconds or **45** seconds.
+<img width="403" height="146" alt="Screenshot 2026-01-01 7 53 34 PM" src="https://github.com/user-attachments/assets/b93e3474-2d48-4f74-8d88-0e40f4995ba2" />
+# In Eaglercraft
+No worries, it is **free**!
