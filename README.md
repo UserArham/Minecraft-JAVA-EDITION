@@ -10,6 +10,7 @@
 ![Static Badge](https://img.shields.io/badge/Minecraft-Java%208.0%20Build-darkgreen)
 ![Static Badge](https://img.shields.io/badge/Vercel-JavaScript%20Command-blue)
 ![Static Badge](https://img.shields.io/badge/Play%20Store-Download-lightblue)
+![Static Badge](https://img.shields.io/badge/Minecraft-Download-blue?style=social&logo=playstore&logoColor=blue&logoSize=14px&label=Minecraft&labelColor=green&color=blue&cacheSeconds=3600&link=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.mojang.minecraftpe%26hl%3Den_US)
 
  
 
