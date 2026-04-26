@@ -2,58 +2,62 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Minecraft Java Edition – Hosted by a Mozila License</title>
+<title>Minecraft Java Edition 1.20 – Hosted by a Mozilla License</title>
 <link href="/icon/favicon.ico" rel="icon" type="image/x-icon">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
-/* ================= GMV CONFIG ================= */
+/* ================= VARIABLES ================= */
 :root {
-  --gmv-width: 900px;
-  --gmv-height: 700px;
   --accent: #2ecc71;
+  --frame-max-width: 900px;
+  --frame-aspect-ratio: 900 / 700; /* width / height */
 }
 
 /* ================= RESET ================= */
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-/* ================= PAGE ================= */
+/* ================= BODY ================= */
 body {
-  margin: 0;
-  min-height: 100vh;
-  padding: 40px;
   font-family: "Segoe UI", Tahoma, sans-serif;
   background: linear-gradient(135deg, #1b2a3a, #0b0f14);
-  overflow: auto; /* ✅ scrolling allowed */
   color: #e5e7eb;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  overflow-x: hidden;
 }
 
 /* ================= HEADER ================= */
 .header {
-  max-width: var(--gmv-width);
-  margin: 0 auto 12px;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
-  letter-spacing: 0.5px;
+  text-align: center;
+  margin-bottom: 20px;
+  max-width: var(--frame-max-width);
 }
 
-/* ================= GMV FRAME ================= */
+/* ================= FRAME ================= */
 .gmv-frame {
-  width: var(--gmv-width);
-  height: var(--gmv-height);
-  margin: 0 auto;
+  width: 100%;
+  max-width: var(--frame-max-width);
+  aspect-ratio: var(--frame-aspect-ratio);
   background: #000;
   border-radius: 12px;
   overflow: hidden;
+  position: relative;
 
   box-shadow:
     0 30px 70px rgba(0, 0, 0, 0.85),
     inset 0 0 0 2px rgba(46, 204, 113, 0.25);
 }
 
-/* ================= IFRAME ================= */
 .gmv-frame iframe {
   width: 100%;
   height: 100%;
@@ -63,54 +67,60 @@ body {
 
 /* ================= FOOTER ================= */
 .footer {
-  max-width: var(--gmv-width);
-  margin: 10px auto 0;
+  max-width: var(--frame-max-width);
+  margin-top: 15px;
   font-size: 12px;
   color: #9ca3af;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .footer span {
   color: var(--accent);
   font-weight: 500;
 }
+
+/* ================= OPTIONAL PLAY BUTTON ================= */
+.gmv-frame::before {
+  content: "▶ Play Minecraft 1.20";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--accent);
+  font-size: 24px;
+  font-weight: bold;
+  pointer-events: none;
+  opacity: 0.3;
+  transition: opacity 0.3s;
+}
+
+.gmv-frame:hover::before {
+  opacity: 0;
+}
+
 </style>
 </head>
 
 <body>
 
 <div class="header">
-  Minecraft Java Edition - Hosted by an Mozilla License
+  Minecraft Java Edition 1.20 - Hosted by a Mozilla License
 </div>
 
-<div class="gmv-frame" id="gmvFrame" data-gmv="900x700">
+<div class="gmv-frame">
   <iframe
     src="https://eaglercraft.dev/clients/EaglyMC%201.20%20JS/"
-    title="Minecraft Java Edition 1.12.2">
+    title="Minecraft Java Edition 1.20">
     Your browser does not support iframes.
   </iframe>
 </div>
 
 <div class="footer">
-  <div>Copyrighted 2017-2025 by UserArham and Eaglercraft.</div>
-  <div><span>Resources copyrright Mojang AB.</span></div>
+  <div>© 2017-2026 UserArham and Eaglercraft</div>
+  <div><span>Resources copyright Mojang AB</span></div>
 </div>
-
-<script>
-/* ================= GMV SIZE APPLY ================= */
-(function () {
-  const frame = document.getElementById("gmvFrame");
-  const gmv = frame.dataset.gmv || "900x700";
-  const parts = gmv.split("x");
-
-  const width = parseInt(parts[0], 10);
-  const height = parseInt(parts[1], 10);
-
-  frame.style.width = width + "px";
-  frame.style.height = height + "px";
-})();
-</script>
 
 </body>
 </html>
